@@ -1477,7 +1477,7 @@ body {
   font-size: 100%;
   line-height: 1.5;
   color: #5c6b80;
-  background-color: #eaedf2;
+  background-color: #f9e319;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -1608,7 +1608,7 @@ HEADER STYLES
 *********************/
 /* line 154, ../scss/breakpoints/_base.scss */
 .header {
-  background-color: #323944;
+  background-color: #ffe81a;
 }
 
 /* line 158, ../scss/breakpoints/_base.scss */
@@ -2135,7 +2135,7 @@ FOOTER STYLES
 /* line 862, ../scss/breakpoints/_base.scss */
 .footer {
   clear: both;
-  background-color: #323944;
+  background-color: #ffe81a;
   color: #f8f9fa;
 }
 

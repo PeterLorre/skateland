@@ -20,7 +20,7 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
-	background-color: $gray;
+	background-color: $yellow-dark;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -152,7 +152,7 @@ HEADER STYLES
 *********************/
 
 .header {
-	background-color: $black;
+	background-color: $yellow-light;
 }
 
 	#logo {
@@ -861,7 +861,7 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
-	background-color: $black;
+	background-color: $yellow-light;
 	color: $light-gray;
 }
 

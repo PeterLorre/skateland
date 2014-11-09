@@ -58,3 +58,5 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+*.scssc
+library/scss/compass_app_log.txt

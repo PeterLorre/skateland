@@ -901,4 +901,7 @@ FOOTER STYLES
 	} /* end .footer-links */
 
 
-	.copyright {}
+	.copyright {
+		color: $red;
+		font-weight: 700;
+	}

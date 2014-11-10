@@ -33,7 +33,16 @@ HEADER STYLES
 
 .header {}
 
-	#logo {}
+	a.logo {
+		img.logo-t{
+			display: block;
+			position: relative;
+			margin: 0 auto;
+		}
+		img.logo-m{
+			display: none;
+		}
+	}
 
 /*********************
 NAVIGATION STYLES

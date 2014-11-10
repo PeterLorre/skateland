@@ -12,3 +12,26 @@ be seen on the Desktop.
 .wrap {
   width: 1040px;
 }
+
+
+
+/*********************
+HEADER STYLES
+*********************/
+
+.header {}
+
+	a.logo {
+		img.logo-d{
+			display: block;
+			position: relative;
+			margin: 0 auto;
+			width: 100%;
+			height: auto;
+			max-width: 585px;
+			top: 30px;
+		}
+		img.logo-m, img.logo-t{
+			display: none;
+		}
+	}

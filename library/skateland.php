@@ -213,7 +213,8 @@ function skateland_theme_support() {
 	// registering wp3+ menus
 	register_nav_menus(
 		array(
-			'main-nav' => __( 'The Main Menu', 'skatelandtheme' ),   // main nav in header
+			'top-nav' => __( 'The Top Menu', 'skatelandtheme' ),   // main nav in header
+			'main-nav' => __( 'The Primary Menu', 'skatelandtheme' ),   // main nav in header
 			'footer-links' => __( 'Footer Links', 'skatelandtheme' ) // secondary nav in footer
 		)
 	);

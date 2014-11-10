@@ -50,6 +50,23 @@
 
 				<div id="inner-header" class="wrap cf">
 
+					<div role="navigation">
+						<?php wp_nav_menu(array(
+    					'container' => false,                           // remove nav container
+    					'container_class' => 'menu cf',                 // class of container (should you choose to use it)
+    					'menu' => __( 'Top Menu', 'skatelandtheme' ),  // nav name
+    					'menu_class' => 'nav top-menu cf',               // adding custom nav class
+    					'theme_location' => 'top-nav',                 // where it's located in the theme
+    					'before' => '',                                 // before the menu
+        				'after' => '',                                  // after the menu
+        				'link_before' => '',                            // before each link
+        				'link_after' => '',                             // after each link
+        				'depth' => 0,                                   // limit the depth of the nav
+    					'fallback_cb' => ''                             // fallback function (if there is one)
+						)); ?>
+
+					</div>
+
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
 					<a class="logo" href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?>
 					<img class="logo-d" src="<?php echo get_template_directory_uri();?>/library/images/skateland-logo-d.png ?>" alt="<?php echo bloginfo('name'); ?>" />
@@ -65,14 +82,14 @@
 						<?php wp_nav_menu(array(
     					'container' => false,                           // remove nav container
     					'container_class' => 'menu cf',                 // class of container (should you choose to use it)
-    					'menu' => __( 'The Main Menu', 'skatelandtheme' ),  // nav name
-    					'menu_class' => 'nav top-nav cf',               // adding custom nav class
+    					'menu' => __( 'Primary Menu', 'skatelandtheme' ),  // nav name
+    					'menu_class' => 'nav primary-menu cf',               // adding custom nav class
     					'theme_location' => 'main-nav',                 // where it's located in the theme
     					'before' => '',                                 // before the menu
-        			'after' => '',                                  // after the menu
-        			'link_before' => '',                            // before each link
-        			'link_after' => '',                             // after each link
-        			'depth' => 0,                                   // limit the depth of the nav
+        				'after' => '',                                  // after the menu
+        				'link_before' => '',                            // before each link
+        				'link_after' => '',                             // after each link
+        				'depth' => 0,                                   // limit the depth of the nav
     					'fallback_cb' => ''                             // fallback function (if there is one)
 						)); ?>
 

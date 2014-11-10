@@ -154,6 +154,9 @@ HEADER STYLES
 .header {
 	background-color: $yellow-light;
 }
+#inner-header{
+	position: relative;
+}
 
 	a.logo {
 		color: $white;
@@ -164,9 +167,10 @@ HEADER STYLES
 			display: block;
 			position: relative;
 			top: 10px;
-		}
-		img.logo-d, img.logo-t{
-			display: none;
+			margin: 0 auto;
+			width: 60%;
+			height: auto;
+			max-width: 585px;
 		}
 	}
 
@@ -174,6 +178,9 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
+.top-menu li a{
+	font-size: 16px;
+}
 
 /*
 all navs have a .nav class applied via
@@ -191,9 +198,10 @@ and more scalable.
 
 		a {
 			display: block;
-			color: $white;
+			color: $red;
 			text-decoration: none;
-			padding: 0.75em;
+			padding: 0.50em;
+			text-align: center;
 
 			/*
 			remember this is for mobile ONLY, so there's no need

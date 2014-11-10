@@ -26,16 +26,32 @@ HEADER STYLES
 			display: block;
 			position: relative;
 			margin: 0 auto;
-			width: 100%;
-			height: auto;
-			max-width: 585px;
 			top: 30px;
 		}
-		img.logo-m, img.logo-t{
-			display: none;
+	}
+.top-menu{
+	right: 0;
+}
+
+.primary-menu{
+	margin-top: 75px;
+	width: 695px;
+	li {
+		a {
+			font-size: 20px;
+
+			&:hover, &:focus {
+				color: $green;
+				border-bottom: 3px solid #ff1a25;
+				@include rounded(5px);
+				padding-bottom: 5px;
+				background: rgba(0,0,0,.05);
+			}
+
+			&:active{
+				background: rgba(0,0,0,.02);
+				@include rounded(5px);
+			}
 		}
 	}
-
-	.nav{
-		margin-top: 75px;
-	}
+} /* end .nav */

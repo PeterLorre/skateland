@@ -34,24 +34,31 @@ HEADER STYLES
 .header {}
 
 	a.logo {
-		img.logo-t{
+		img{
 			display: block;
 			position: relative;
 			margin: 0 auto;
-		}
-		img.logo-m{
-			display: none;
 		}
 	}
 
 /*********************
 NAVIGATION STYLES
 *********************/
+.top-menu{
+	position: absolute;
+	right: 15px;
+}
+.primary-menu{
+	width: 627px;
+	margin: 25px auto;
+	a{
+		font-size: 18px;
+	}
+}
 
 .nav {
 	border: 0;
 	ul {
-		background:$black;
 		margin-top:0;
 	}
 	li {
@@ -60,14 +67,15 @@ NAVIGATION STYLES
 
 		a {
 			border-bottom: 0;
+			font-weight: 700;
+			@include transition(all 0.2s ease-in-out);
 
 			/*
 			you can use hover styles here even though this size
 			has the possibility of being a mobile device.
 			*/
 			&:hover, &:focus {
-				color: $white;
-				text-decoration: underline;
+				color: $green;
 			}
 		}
 

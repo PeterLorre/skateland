@@ -29,6 +29,9 @@
 		<!-- <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/win8-tile-icon.png"> -->
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+		
+		<!--Google Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
 
 		<?php // wordpress head functions ?>
 		<?php wp_head(); ?>

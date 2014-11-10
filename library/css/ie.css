@@ -89,7 +89,7 @@ I've edited it a bit, but it's a nice starting point.
 some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
 */
-/* line 65, ../scss/partials/_typography.scss */
+/* line 67, ../scss/partials/_typography.scss */
 p {
   -ms-word-break: break-all;
   -ms-word-wrap: break-all;
@@ -464,6 +464,11 @@ a.logo img.logo-d {
 /* line 34, ../scss/breakpoints/_1030up.scss */
 a.logo img.logo-m, a.logo img.logo-t {
   display: none;
+}
+
+/* line 39, ../scss/breakpoints/_1030up.scss */
+.nav {
+  margin-top: 75px;
 }
 
 /*
